@@ -1,0 +1,29 @@
+<project name="mm" default="makejar" basedir=".">
+
+   <target name="compile">
+      <mkdir dir="build"/>
+      <javac destdir="build"
+             debug="on"
+             optimize="on">
+         <src path="src"/>
+      </javac>
+   </target>
+
+   <target name="makejar" >
+      <jar jarfile="MetaMiner30_LGD_IF.jar">
+         <fileset dir="bin">
+         	<include name="**/*.class"/>
+         </fileset>
+      	<fileset dir="src">
+	     	<include name="**/*.java"/>
+	     </fileset>
+       </jar>
+   	<copyfile dest="D:\MetaMiner\itpweb\WEB-INF\lib\MetaMiner30_LGD_IF.jar" src="MetaMiner30_LGD_IF.jar"/>
+   </target>
+
+   <target name="clean">
+      <delete dir="build"/>
+      <delete dir="dist"/>
+   </target>	
+
+</project>

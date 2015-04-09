@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
+	<classpathentry kind="lib" path="jars/CommonAdmin.jar"/>
+	<classpathentry kind="lib" path="jars/commons-net-1.4.1.jar"/>
+	<classpathentry kind="lib" path="jars/jakarta-oro-2.0.8.jar"/>
+	<classpathentry kind="lib" path="jars/jSpeed.jar"/>
+	<classpathentry kind="lib" path="jars/mail.jar"/>
+	<classpathentry kind="lib" path="jars/MetaMiner30.jar" sourcepath="D:/workspace/LGDInterfaceWorkspace/jars/MetaMiner30.jar"/>
+	<classpathentry kind="lib" path="jars/servlet-api.jar"/>
+	<classpathentry kind="lib" path="jars/WF.jar"/>
+	<classpathentry kind="lib" path="jars/activation.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
